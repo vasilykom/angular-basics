@@ -15,4 +15,9 @@ posts: Post[] = [
   { title: 'учу', text: 'англар'},
   { title: 'учу 2й день', text: 'передача параметров'}
 ];
+
+updatePost(post) {
+  this.posts.unshift(post)
+  console.log('post app', post);
+}
 }
